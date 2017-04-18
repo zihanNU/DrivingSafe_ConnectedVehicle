@@ -1,0 +1,189 @@
+T(timesteps)=8000	N=1800		L=5500
+startV=5.00
+
+mean_s=4.00		std_s=0.30	range_s=2.00
+meanacc=4.00		stdacc=0.00	rangeacc=0.00
+meandecc=-3.40		stddecc=1.20	rangedecc=2.00
+meanVd_1=30.00		stdVd_1=0.00	rangeVd_1=0.00
+meanVd_2=20.00		stdVd_2=10.00	rangeVd_2=20.00
+percentVd_1=100.00
+meanRt=0.2		stdRt=0.15	rangeRt=0.15
+meanLCT=2.50		stdLCT=0.40	rangeLCT=1.00
+
+mean_Gamma=0.20		st_Gamma=0.00		range_Gamma=0.00
+mean_Wm=2.00		std_Wm=0.00		range_Wm=0.00
+mean_Wc=100000.00	std_Wc=0.546		range_Wc=0.00
+mean_Tmax=4.00		std_Tmax=0.00		range_Tmax=8.e-002
+mean_Alpha=8.e-002	std_Alpha=0.00		range_Alpha=5.00
+mean_Beta=5.00		std_Beta=0.00		range_Beta=20.00
+mean_Tcorr=20.00	std_Tcorr=0.00		range_Tcorr=5.00
+mean_So=5.00		std_So=0.00		range_So=1.00
+
+Hazard_ParameterA=1.00
+Hazard_ParameterB=2.67
+R_Heterogeneity=2.67
+K_Heterogeneity=5.e-002
+BetaOne_CF=0.0		BetaOne_FF=0.0
+BetaLCL_CF=-0.20842	BetaLCL_FF=0.274667
+BetaV_CF=0.064285	BetaV_FF=0.064285
+BetaDXL1_CF=0.027426	BetaDXL1_FF=0.027426
+BetaDVL1_CF=-0.12671	BetaDVL1_FF=0.0
+BetaDXL2_CF=0.00431	BetaDXL2_FF=0.00431
+BetaDVL2_CF=-0.02568	BetaDVL2_FF=0.374553
+BetaDXF1_CF=0.0		BetaDXF1_FF=0.0
+BetaDVF1_CF=0.043283	BetaDVF1_FF=0.0
+BetaDXL1R_CF=0.0	BetaDXL1R_FF=0.0
+BetaDVL1R_CF=-0.05779	BetaDVL1R_FF=-0.05779
+BetaDXF1R_CF=0.0	BetaDXF1R_FF=0.0
+BetaDVF1R_CF=-0.05961	BetaDVF1R_FF=0.0
+BetaDXL1L_CF=0.0	BetaDXL1L_FF=0.0
+BetaDVL1L_CF=-0.01916	BetaDVL1L_FF=0.0
+BetaDXF1L_CF=0.01189	BetaDXF1L_FF=0.013607
+BetaDVF1L_CF=0.0	BetaDVF1L_FF=0.0
+BetaKR_CF=0.0		BetaKR_FF=0.0
+BetaKL_CF=0.0		BetaKL_FF=0.0
+BetaK_CF=0.07382	BetaK_FF=0.0
+
+meanrisk=40.00		stdrisk=30.00		rangerisk=80.00
+meanLCcrash=1.75	stdLCcrash=1.75		rangeLCcrash=4.00
+
+********************************Car1********************************
+Rt=0.4	Gamma=0.2	Alpha=0.08	Beta=5
+Tmax=4.0	Wm=2	Wc=100000	Tcorr=13
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car2********************************
+Rt=2.7	Gamma=0.8	Alpha=0.03	Beta=8
+Tmax=9	Wm=3		Wc=60000	Tcorr=15
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car3********************************
+Rt=2.1		Gamma=0.2	Alpha=0.08	Beta=2.4
+Tmax=4.0	Wm=2	Wc=100000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car4********************************
+Rt=1.8	Gamma=0.5	Alpha=0.06	Beta=5
+Tmax=7	Wm=2	Wc=100000	Tcorr=25
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car5********************************
+Rt=2.6	Gamma=0.7	Alpha=0.02	Beta=4.0
+Tmax=10	Wm=5	Wc=130000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car6********************************
+Rt=2.5	Gamma=1.2	Alpha=0.03	Beta=7
+Tmax=9.5	Wm=9	Wc=80000	Tcorr=29
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car7********************************
+Rt=0.2	Gamma=0.2	Alpha=0.08	Beta=5
+Tmax=4	Wm=2	Wc=100000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car8********************************
+Rt=2.6	Gamma=0.2	Alpha=0.08	Beta=9.6
+Tmax=4	Wm=2	Wc=100000	Tcorr=26
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car9********************************
+Rt=1.7	Gamma=0.2	Alpha=0.26	Beta=5
+Tmax=3	Wm=7	Wc=60000	Tcorr=27
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car10********************************
+Rt=0.6	Gamma=0.2	Alpha=0.34	Beta=4
+Tmax=3	Wm=5.2	Wc=110000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car11********************************
+Rt=1.9	Gamma=0.9		Alpha=0.08	Beta=10
+Tmax=7	Wm=1	Wc=70000	Tcorr=10
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car12********************************
+Rt=1.4	Gamma=0.1	Alpha=0.13	Beta=7
+Tmax=3.3	Wm=5	Wc=111000	Tcorr=14
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car13********************************
+Rt=0.1	Gamma=0.3	Alpha=0.08	Beta=5
+Tmax=4	Wm=9	Wc=100000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car14********************************
+Rt=0.8	Gamma=0.2	Alpha=0.04	Beta=10
+Tmax=4	Wm=2	Wc=100000	Tcorr=16
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car15********************************
+Rt=0.1	Gamma=0.2	Alpha=0.09	Beta=9
+Tmax=6.3	Wm=6	Wc=56000	Tcorr=21
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car16********************************
+Rt=2.6	Gamma=0.4	Alpha=0.04	Beta=5
+Tmax=6	Wm=6	Wc=130000	Tcorr=11
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car17********************************
+Rt=0.4	Gamma=2		Alpha=0.08	Beta=5
+Tmax=4.0	Wm=2	Wc=100000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car18********************************
+Rt=0.6	Gamma=0.1	Alpha=0.29	Beta=10.3
+Tmax=3	Wm=4	Wc=120000	Tcorr=27
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car19********************************
+Rt=0.3	Gamma=0.2	Alpha=0.37	Beta=9.8
+Tmax=2.1	Wm=2	Wc=100000	Tcorr=29
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car20********************************
+Rt=0.1	Gamma=0.1	Alpha=0.25	Beta=9
+Tmax=4	Wm=3	Wc=50000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car21********************************
+Rt=2.1	Gamma=0.7	Alpha=0.04	Beta=2
+Tmax=9	Wm=9	Wc=110000	Tcorr=13
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car22********************************
+Rt=1.0	Gamma=1.9	Alpha=0.05	Beta=5
+Tmax=8	Wm=7	Wc=50000	Tcorr=21
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car23********************************
+Rt=1.7	Gamma=0.1	Alpha=0.09	Beta=7
+Tmax=10	Wm=2	Wc=50000	Tcorr=23
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car24********************************
+Rt=0.5	Gamma=0.2	Alpha=0.15	Beta=4
+Tmax=5	Wm=5	Wc=130000	Tcorr=19
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car25********************************
+Rt=0.7	Gamma=0.2	Alpha=0.15	Beta=10
+Tmax=3	Wm=2	Wc=100000	Tcorr=10
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car26********************************
+Rt=0.9	Gamma=0.1	Alpha=0.17	Beta=5
+Tmax=1	Wm=6	Wc=90000	Tcorr=16
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car27********************************
+Rt=0.4	Gamma=0.2	Alpha=0.08	Beta=5
+Tmax=4	Wm=4.7	Wc=100000	Tcorr=29
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car28********************************
+Rt=0.5	Gamma=0.5	Alpha=0.04	Beta=9.1
+Tmax=7.1	Wm=9	Wc=98000	Tcorr=14
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car29********************************
+Rt=1.4	Gamma=0.4	Alpha=0.11	Beta=4
+Tmax=7	Wm=3	Wc=110000	Tcorr=26
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car30********************************
+Rt=0.7	Gamma=0.3	Alpha=0.12	Beta=4
+Tmax=10	Wm=9	Wc=140000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car31********************************
+Rt=2.4	Gamma=0.1	Alpha=0.09	Beta=8
+Tmax=9	Wm=6	Wc=60000	Tcorr=26
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car32********************************
+Rt=0.5	Gamma=0.2	Alpha=0.02	Beta=10.6
+Tmax=9	Wm=4	Wc=141000	Tcorr=11
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car33********************************
+Rt=0.3	Gamma=1.1	Alpha=0.03	Beta=9
+Tmax=4	Wm=4	Wc=120000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car34********************************
+Rt=0.7	Gamma=0.1	Alpha=0.08	Beta=5
+Tmax=4	Wm=2	Wc=51000	Tcorr=20
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
+********************************Car35********************************
+Rt=0.9	Gamma=0.2	Alpha=0.21	Beta=3.9
+Tmax=3.1	Wm=7.5	Wc=130000	Tcorr=10
+Deltan=4.0	Tn=1.5	Son=2.0	an=1.4	bn=2.0	Von=25.0
