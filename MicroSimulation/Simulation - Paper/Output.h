@@ -16,8 +16,6 @@ int section_output_final (int i, vector<data2> AggDataHazardD_Li, vector<data3> 
 	string fileaddress;
 	FILE *stHazardL0;
 	char filename[9999];
-	//fileaddress = string("C:\\Users\\Administrator\\Desktop\\Alireza 57\\Simulation 2 to 1 lane merge_wavelet (05.28.12) - Emission - VSL - Full Section\\I-O Files\\%i.txt") + address;
-//	sprintf(filename, "C:\\Users\\Administrator\\Desktop\\Alireza Files\\ISTTT Paper Simulation Codes\\Simulation (07.27.14) - gap lanechanging\\I-O Files\\Simulated-Density-Hazard-L%d.txt", i);
 	sprintf(filename, "..\\I-O Files_%d\\Simulated-Density-Hazard-L%d.txt",InitializationSeed, i);
 	// cout << filename;
 	stHazardL0 = fopen(filename, "wb");
